@@ -1,0 +1,75 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  height: 100%;
+}
+#cloud-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, #d9f8fa, #ddfad9);
+  z-index: -1;
+}
+h1 {
+  margin: 5vh 20px 5vh 20px;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2b5558;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+#apps {
+  margin: auto;
+  margin-bottom: 40px;
+  width: 80vmin;
+  border-radius: 10%;
+  border-color: #9ebec0;
+  border-width: 3px;
+  border-style: solid;
+  background-color: #e7fafc;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.appsText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 28px;
+  margin: 2vh 5vw 2vh 15%;
+  width: 100%;
+}
+.appsListTitle {
+  font-size: 20px;
+}
+.appsListText {
+  font-size: 16px;
+  padding: 0;
+  margin: 5px 0 0 0;
+  justify-self: stretch;
+}
+.appsListImage {
+  width: 80%;
+  margin: 10px 0 0 0;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+.appsListBox {
+  text-align: center;
+  width: 40%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #2b5558;
+  border-radius: 5%;
+  padding: 10px 0 10px 0;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}

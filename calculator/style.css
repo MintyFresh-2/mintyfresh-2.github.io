@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #eee, #aaa);
+}
+.homeButton {
+  margin: 10px 0 0 10px;
+}
+.container {
+  margin: auto;
+  margin-top: 3vh;
+  width: 80vw;
+  height: 80vh;
+  padding: 10px;
+  background-color: #888;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.display {
+  border: 5px solid #eee;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  background-color: black;
+  grid-area: 1/1/2/4;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.displayText {
+  font-family: "Nova Square";
+  font-size: 8vh;
+  color: rgb(110, 243, 76);
+  text-shadow: 0 0 10px rgb(110, 243, 76);
+  margin-right: 2vw;
+}
+button {
+  font-size: 10vh;
+  background-color: #444;
+  color: #ddd;
+  border: 5px solid #000;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
