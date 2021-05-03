@@ -163,6 +163,7 @@ button {
     background-size: cover;
   }
   .menu .menuButton {
+    margin: 5vh 0 10vh 0;
     font-size: 100%;
     font-style: italic;
     width: 80%;
